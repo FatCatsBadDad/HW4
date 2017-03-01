@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars RPG Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel = "stylesheet" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="top" class = "row">
+		<div id="myCharTop" class = "col-md-5">
+			<div id="myCharPortrait" class= "col-md-4">
+			</div>
+			<div id="myCharHPFull" class = "col-md-7">
+				<div class="row">
+					<div id="myCharHP">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<button id="attack" onClick="attack()">Attack</button>
+		</div>
+		<div id="defenderTop" class = "col-md-5">
+			<div id="defenderHPFull" class = "col-md-offset-1 col-md-7">
+				<div class = "row">
+					<div id="defenderHP">
+					</div>
+				</div>
+			</div>
+			<div id="defenderPortrait" class = "col-md-4">
+			</div>
+		</div>
+	</div>
+	<div id="charSelect">
+		<h1>Character Selection</h1>
+	</div>
+	<div id="enemies">
+		<h1>Enemies</h1>
+	</div>
+	<div id="battleSection" class = "row">
+
+		<div id="myChar" class = "col-md-offset-1 col-md-5"></div>
+		<div id="defender" class = "col-md-offset-1 col-md-5"></div>
+	</div>
+	<script src="assets/js/starwars.js"></script>
+</body>
+</html>

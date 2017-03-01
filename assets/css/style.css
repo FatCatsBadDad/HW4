@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+}
+
+#top {
+	height: 200px;
+	margin-top: 10px;
+}
+
+#myCharHPFull {
+	margin-top: 70px;
+	border: 2px solid #000;
+	height: 44px;
+}
+
+#myCharHP {
+	background-color: red;
+	height: 40px;
+	width: 100%;
+}
+
+#defenderHPFull {
+	margin-top: 70px;
+	border: 2px solid #000;
+	height: 44px;
+}
+
+#defenderHP {
+	background-color: red;
+	height: 40px;
+	width: 100%;
+}
+
+#attack {
+	margin-top:70px;
+}
+
+#charSelect img{
+	display:inline-block;
+}
+
+#battleSection {
+	margin-top: 20px;
+}
+
+#enemies img {
+	padding: 10px;
+}
