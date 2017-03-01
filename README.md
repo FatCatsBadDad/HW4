@@ -1,7 +1,7 @@
 # week-4-game
 
 ## Live Link
-- https://kptkid.github.io/week-4-game/
+- FatCatsBadDad.github.io/HW4
 
 ## Requirements
 ####
